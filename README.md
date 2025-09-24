@@ -18,24 +18,26 @@ User Feedback – learns from your choices to give better suggestions.
 
 ## Project Structure:
 
- SURPLUS MANAGEMENT SYSTEM/
- |
- |---src/  # core application logic
- |     |---logic.py  # Business logic and task 
- operations
- |     |__db.py      # Database operations
- |
- |---API/             # Backend api
- |    |__main.py      # FastAPI endpoints
- |
- |---FrontEnd/         # Frontend application
- |    |__app.py        # Streamlit web interface
- |
- |___requirements.txt  # Python Dependencies
- |
- |___README.md  # Python Documentation
- |
- |___.env   # Python Variables
+ SmartFoodRecommendation/
+|
+|----src/             #core application logic
+|    |-----logic.py   #business logic and task 
+operations
+|     |__db.py        #Database operations
+|
+|
+|----- api/            #Backend API
+|        |___main.py   #FastAPI endpoints
+|----frontend/         #frontend application
+|      |___app.py      #Streamlit web interface
+|
+|___requirements.txt    #Python Dependencies
+|
+|____README.md          #Project documentation
+|
+|____.env               # Python variables  
+
+
 
 
 ## Quick Start
@@ -108,13 +110,15 @@ SUPABASE_URL=your_project_url_here
 SUPABASE_KEY=your_anon_key_here
 
 **Example:**
-SUPABASE_URL="https://idrpcwtugfjsxjvfgrym.supabase.co"
-SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkcnBjd3R1Z2Zqc3hqdmZncnltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODIyNDgsImV4cCI6MjA3MzY1ODI0OH0.i_tThAqol4gDRoIgMl6l6LiwG05sWQFdPmHGS7ux1jM"
+SUPABASE_URL ="https://gpbydptskbkujczuudte.supabase.co"
+SUPABASE_KEY ="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdwYnlkcHRza2JrdWpjenV1ZHRlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODI2MDAsImV4cCI6MjA3MzY1ODYwMH0.AXMK6IR7VTUGZFC5SvrFgIMkhiBAKPBlJREjlW1qK-w"
+
+
 
 ### 5. Run the Application
 
 ## Streamlit Frontend
-streamlit run FrontEnd/app.py
+streamlit run frontend/app.py
 
 The app will open in your browser at `http://localhost:8080`
 
