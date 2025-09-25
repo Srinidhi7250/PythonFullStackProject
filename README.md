@@ -1,5 +1,5 @@
 # Smart Food Recommendation System
-
+## Description
 A Smart Food Recommendation System suggests food or recipes to users based on their preferences, diet, and health goals.
 It analyzes nutritional content like calories, protein, fat, and carbs, and combines it with user data such as vegetarian, vegan, or keto.
 The system then recommends meals that match the user’s taste and dietary needs.
